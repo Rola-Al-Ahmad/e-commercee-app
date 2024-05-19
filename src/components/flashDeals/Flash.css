@@ -1,0 +1,79 @@
+.flash {
+    background: #f6f9fc;
+    padding: 50px 0;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.flash .container .heading {
+    align-items: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .flash .product h3 {
+        font-size: 19px;
+    }
+
+    .flash .product .rate i {
+        font-size: 17px;
+    }
+
+    .flash .product .price h4 {
+        font-size: 15px;
+    }
+
+    .flash .price button {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .control-btn .next, .control-btn .prev {
+        width: 3rem;
+        height: 3rem;
+        line-height: 3.5rem;
+    }
+    .control-btn .next {
+        right: -10px;
+    }
+
+    .control-btn .prev {
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .flash .container .heading h1 {
+        font-size: 1.1rem;
+    }
+
+    .flash .slick-slide div .img img {
+        width: 14rem;
+        height: auto;
+        margin: auto;
+    }
+
+    .flash .product h3 {
+        font-size: 1rem;
+    }
+
+    .flash .product .rate i {
+        font-size: .8rem;
+    }
+
+    .flash .price button {
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .control-btn .next, .control-btn .prev {
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 3rem;
+    }
+}

@@ -1,0 +1,232 @@
+.shop .category {
+    padding: 30px;
+    height: fit-content;
+}
+
+.shop .container .category {
+    position: sticky;
+    top: 120px;
+    margin-bottom: 10px;
+}
+
+.chead h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.chead h1:nth-child(2) {
+    opacity: 0.5;
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding-left: 70px;
+}
+
+.shop .category .box {
+    background-color: #f6f9fc;
+    margin: 15px 0;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.shop .category img {
+    width: 50px;
+    height: 50px;
+    margin-top: 0 !important;
+}
+
+.shop .category .box:hover {
+    background-color: #fff;
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+.shop .box2 {
+    margin-top: 90px !important;
+    text-align: center;
+}
+
+.shop .category button {
+    padding: 10px;
+    background: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.shop .contentWidth {
+    margin-left: 30px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.shop .product img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop .product {
+    transition: 0.5s;
+}
+
+.shop .product:hover {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+
+@media screen and (max-width: 1268px) {
+    .chead h1 {
+        font-size: 15px;
+    }
+
+    .chead h1:nth-child(2) {
+        border-left: 1px solid rgba(0, 0, 0, 0.5);
+        padding-left: 50px;
+    }
+
+    .shop .category span {
+        margin: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .chead h1 {
+        font-size: 13px;
+    }
+
+    .chead h1:nth-child(2) {
+        border-left: 1px solid rgba(0, 0, 0, 0.5);
+        padding-left: 30px;
+    }
+
+    .shop .category img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .shop .category .box {
+        padding: 0px 10px;
+    }
+
+    .shop .category button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .shop .category button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .product-content.grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .shop .category img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .shop .category button {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-content.grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .chead h1 {
+        font-size: 10px;
+    }
+
+    .chead h1:nth-child(2) {
+        opacity: 0.5;
+        border-left: 1px solid rgba(0, 0, 0, 0.5);
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .shop .category {
+        display: none;
+    }
+
+    .shop .contentWidth {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .shop .product h3 {
+        font-size: 1rem;
+    }
+
+    .shop .product .rate i {
+        font-size: .8rem;
+    }
+
+    .shop .product .price h4 {
+        font-size: .8rem;
+    }
+
+    .shop .price button {
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media screen and (max-width: 465px) {
+    .shop .product h3 {
+        font-size: .8rem;
+    }
+
+    .shop .product .rate i {
+        font-size: .6rem;
+    }
+
+    .shop .product .price h4 {
+        font-size: .6rem;
+    }
+
+    .shop .price button {
+        font-size: .8rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .product-content.grid1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .shop .product h3 {
+        font-size: 1rem;
+    }
+
+    .shop .product .rate i {
+        font-size: .8rem;
+    }
+
+    .shop .product .price h4 {
+        font-size: .8rem;
+    }
+
+    .shop .price button {
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+}
